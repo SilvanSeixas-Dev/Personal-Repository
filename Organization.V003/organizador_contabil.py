@@ -29,12 +29,12 @@ from difflib import SequenceMatcher
 # =====================================================================
 # 1. CONFIGURAÇÕES
 # =====================================================================
-BASE_FOLDER = r"local do repositório"
+BASE_FOLDER = r"C:\Users\User\Documents\GitHub\Organization.V003"
 SOURCE_FOLDER = os.path.join(BASE_FOLDER, "messy_folder")      # bagunça
 DEST_FOLDER = os.path.join(BASE_FOLDER, "organize_folder")     # organizado
 
 # SEGURANÇA: True = só simula. Também pode usar --executar na linha de comando.
-SIMULATION_MODE = True
+SIMULATION_MODE = False
 
 # Sensibilidade para juntar assuntos parecidos (0 a 1).
 # 1.0 desliga a comparação aproximada. Valores baixos arriscam juntar
